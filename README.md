@@ -8,5 +8,5 @@ Setting this script to run at boot (by adding to /etc/rc.local) allows me to see
 
 ##Notes: 
 - Uses the Adafruit GPIO and CharLCD libraries
-- Should be run using Python2.7 (imports won't work in Python3)
+- Should be run as root (or sudo) using Python2.7 (imports won't work in Python3)
 - Due to Adafruit library depencies, you may also need to install Pytyon 3 on your Raspi
